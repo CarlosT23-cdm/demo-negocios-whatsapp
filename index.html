@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiservicios</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f7fa;
+      }
+
+      .hero {
+        background: #003366;
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 25px;
+        background: #25d366;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+      }
+
+      .productos {
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      .card {
+        background: white;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background: #111;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Multiservicios</h1>
+      <p>Recargas, celulares, accesorios y más</p>
+
+      <a href="https://wa.me/573155135785" class="btn">
+        Escribir por WhatsApp
+      </a>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="productos">
+      <h2>Productos destacados</h2>
+
+      <div class="grid">
+        <div class="card">
+          <img
+            src="./imgDemo1/Apple_iPhone-11-Pro_Colors.jpg"
+            alt="Imagen Celular iPhone 11"
+          />
+          <h3>iPhone 11</h3>
+          <p>$1.200.000</p>
+          <a
+            href="https://wa.me/573155135785?text=Quiero%20el%20iPhone%2011"
+            class="btn"
+          >
+            Pedir
+          </a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./imgDemo1/Relosj_Smartwatch.jpg"
+            alt="Imagen Reloj Inteligente"
+          />
+          <h3>Smartwatch</h3>
+          <p>$150.000</p>
+          <a
+            href="https://wa.me/573155135785?text=Quiero%20el%20Smartwatch"
+            class="btn"
+          >
+            Pedir
+          </a>
+        </div>
+
+        <div class="card">
+          <img
+            src="./imgDemo1/Auricular-Gamer-Redragon-Zeus.jpg"
+            alt="Imagen Auricular Gamer"
+          />
+          <h3>Audífonos</h3>
+          <p>$50.000</p>
+          <a
+            href="https://wa.me/573155135785?text=Quiero%20los%20audífonos"
+            class="btn"
+          >
+            Pedir
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>© 2026 Multiservicios</p>
+    </div>
+  </body>
+</html>
